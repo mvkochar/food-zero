@@ -1,0 +1,62 @@
+.top-home {
+    margin-top: 102px;
+    margin-left: 138px;
+    margin-right: 138px;
+    padding-bottom: 222px;
+
+    .hero-info {
+        flex-shrink: 0;
+        z-index: 1;
+    }
+
+    .hero-img {
+        position: absolute;
+        top: 115px;
+        right: 138px;
+    }
+
+    .hero-spices {
+        gap: 44px;
+        margin-top: -176px;
+        margin-left: -231px;
+    }
+}
+
+.top-home-hero {
+    position: relative;
+    height: 1300px;
+}
+
+.top-home-desc {
+    width: 560px;
+    margin-top: 50px;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: .02em;
+    color: #fff;
+}
+
+.top-home-scroll {
+    margin-top: 61px;
+
+    .scroll-title {
+        width: 130px;
+        height: 64px;
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        font-size: 48px;
+        color: #fff;
+        transform: rotate(90deg);
+    }
+
+    .scroll-line {
+        width: 406px;
+        height: 0px;
+        margin-top: 260px;
+        margin-left: -137px;
+        border: 2px dashed #FFFFFF;
+        transform: rotate(90deg);
+    }
+
+}

@@ -58,5 +58,9 @@
         border: 2px dashed #FFFFFF;
         transform: rotate(90deg);
     }
+}
 
+.top-home-diet {
+    margin-top: 149px;
+    color: #FFFFFF;
 }

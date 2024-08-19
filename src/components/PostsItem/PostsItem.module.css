@@ -1,0 +1,15 @@
+.posts_item {
+    max-width: 792px;
+}
+
+.posts_item_category {
+    width: fit-content;
+    margin-top: 12px;
+    margin-left: 577px;
+    padding: 7px 33px;
+    background-color: #5E6600;
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+}

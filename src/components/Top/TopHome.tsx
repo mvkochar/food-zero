@@ -20,7 +20,7 @@ const TopHome = () => {
                     </div>
                 </div>
                 <div className="hero-img">
-                   <div><img src="/images/home-hero.png" alt="home-hero" /></div>
+                    <div><img src="/images/home-hero.png" alt="home-hero" /></div>
                     <div className="hero-spices d-f">
                         <div><img src="/images/spices1.png" alt="spices1" width={250} /></div>
                         <div><img src="/images/spices2.png" alt="spices2" width={250} /></div>
@@ -28,6 +28,21 @@ const TopHome = () => {
                     </div>
                 </div>
 
+            </div>
+            <div className="top-home-diet d-f jc-sb">
+                <div>
+                    <div><img src="/images/diet1.png" alt="diet1" /></div>
+                    <h3 className="bl-title" style={{ marginTop: "54px" }}>Start to plan <br /> your diet today</h3>
+                    <p className="top-home-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+                    </p>
+                </div>
+                <div>
+                    <p className="top-home-desc" style={{ marginTop: 0, marginBottom: "84px" }}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+                    </p>
+                    <div><img src="/images/diet2.png" alt="diet2" /></div>
+                </div>
             </div>
         </div>
     )

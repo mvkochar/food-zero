@@ -1,0 +1,112 @@
+.home-menu {
+    padding-top: 176px;
+    padding-left: 138px;
+    padding-right: 138px;
+    background: url("/public/images/home-menu-bg.png") no-repeat right;
+    background-position-y: 0;
+}
+
+.home-menu-title,
+.home-chef-title {
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-size: 108px;
+    color: #000;
+}
+
+.home-menu-desc,
+.home-menu-item .menu-item-desc,
+.home-chef-desc,
+.home-features-item .features-item-desc {
+    max-width: 532px;
+    margin-top: 18px;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: .02em;
+    color: #4D4D4D;
+}
+
+.home-menu-box {
+    margin-top: 158px;
+    flex-wrap: wrap;
+    row-gap: 108px;
+}
+
+.home-menu-item {
+    max-width: 792px;
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    color: #000;
+
+    .menu-item-price {
+        padding-bottom: 12px;
+        border-bottom: 4px;
+        border-bottom: 4px dashed #000000;
+        font-size: 48px;
+        line-height: 0.8;
+        text-align: right;
+    }
+
+    .menu-item-title {
+        margin-top: 24px;
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        font-size: 68px;
+        line-height: 1.2;
+    }
+
+    .menu-item-desc {
+        margin-top: 24px;
+    }
+}
+
+.home-chef {
+    height: 1172px;
+    margin-top: 218px;
+    padding-top: 234px;
+    padding-left: 119.27px;
+    padding-right: 138px;
+    background: #EBF0E4 url("/public/images/home-chef-bg.png") no-repeat;
+}
+
+.home-chef-title {
+    line-height: 1;
+}
+
+.home-chef-desc {
+    max-width: 649px;
+    margin-top: 18px;
+}
+
+.home-features {
+    margin-top: 207px;
+    margin-left: 138px;
+    margin-right: 138px;
+}
+
+.home-features-item {
+    max-width: 508px;
+    text-align: center;
+
+    .features-item-title {
+        margin-top: 39px;
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.2;
+        text-align: center;
+        color: #000;
+    }
+
+    .features-item-desc {
+        max-width: 508px;
+        margin-top: 39px;
+    }
+}
+
+.home-blog  {
+    margin-top: calc(190px + 130px);
+    margin-left: 138px;
+    margin-right: 138px;
+}

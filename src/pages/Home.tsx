@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import './css/Home.css'
+import PostsList from '../components/PostsList/PostsList'
+import PostsItem from '../components/PostsItem/PostsItem'
 
 type HomeProps = {
   setPageNum: (pageNum: number) => void
@@ -71,7 +73,70 @@ const Home = ({ setPageNum }: HomeProps) => {
           </p>
         </div>
       </section>
-      <section className='home-blog d-f jc-sb'></section>
+      <section className='home-blog d-f jc-sb'>
+        {
+          PostsList.filter((elem) => elem.id < 3).map((post) => {
+            return (
+              <PostsItem
+                id={post.id}
+                category={post.category}
+                image={post.image}
+                authorPhoto={post.authorPhoto}
+                authorName={post.authorName}
+                date={post.date}
+                time={post.time}
+                comments={post.comments}
+                title={post.title}
+                description={post.description}
+              />
+            )
+          })
+        }
+      </section>
+      <section className='home-reservation'>
+        <h2 className="home-reservation-title">Make a Reservation</h2>
+        <h4 className="home-reservation-subtitle">Get in touch with restaurant</h4>
+        <form action="" className='home-reservation-fm'>
+          <div className="fm-box d-f jc-sb">
+            <input type="text" name='reservationDate' placeholder='16/22/2021' />
+            <div className="select-bl">
+              <select name="reservationTime">
+                <option value="0">6:00 pm</option>
+              </select>
+            </div>
+            <div className="select-bl">
+              <select name="reservationPersov">
+                <option value="0">2 Person</option>
+              </select>
+            </div>
+          </div>
+          <button>Book Now</button>
+        </form>
+      </section>
+      <section className='home-categories'>
+        <h2 className="home-categories-title">Calories Energy <br /> Balance</h2>
+        <h4 className="home-categories-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+        <div className="home-categories-box d-f jc-sb">
+          <div className="home-categories-item">
+            <div className="d-f jc-sb">
+              <h4 className="categories-item-name">Starters</h4>
+              <a href="" className='d-b'><img src="/images/arrow-right.png" alt="arrow-right" /></a>
+            </div>
+          </div>
+          <div className="home-categories-item">
+            <div className="d-f jc-sb">
+              <h4 className="categories-item-name">Mains</h4>
+              <a href="" className='d-b'><img src="/images/arrow-right.png" alt="arrow-right" /></a>
+            </div>
+          </div>
+          <div className="home-categories-item">
+            <div className="d-f jc-sb">
+              <h4 className="categories-item-name">Soups</h4>
+              <a href="" className='d-b'><img src="/images/arrow-right.png" alt="arrow-right" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

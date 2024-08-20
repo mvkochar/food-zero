@@ -7,7 +7,9 @@
 }
 
 .home-menu-title,
-.home-chef-title {
+.home-chef-title,
+.home-reservation-title,
+.home-categories-title {
     font-family: "Rufina", serif;
     font-weight: 700;
     font-size: 108px;
@@ -105,8 +107,134 @@
     }
 }
 
-.home-blog  {
+.home-blog {
     margin-top: calc(190px + 130px);
     margin-left: 138px;
     margin-right: 138px;
+}
+
+.home-reservation {
+    margin-top: 187px;
+    padding-top: 237px;
+    padding-bottom: 254px;
+    background-color: #EBF0E4;
+}
+
+.home-reservation-title {
+    text-align: center;
+}
+
+.home-reservation-subtitle,
+.home-categories-subtitle {
+    margin-top: 18px;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: .02em;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.home-reservation-fm {
+    margin-top: 133px;
+
+    .fm-box {
+        margin-left: 138px;
+        margin-right: 138px;
+    }
+
+    input {
+        display: block;
+
+        &::placeholder {
+            color: #000;
+        }
+    }
+
+    .select-bl {
+        padding-right: 40px;
+    }
+
+    select {
+        width: 100%;
+        border: none;
+    }
+
+    button {
+        display: block;
+        width: 344px;
+        margin: 133px auto;
+        margin-bottom: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #233000;
+        border: 2px solid #000;
+        cursor: pointer;
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #fff;
+    }
+
+}
+
+.home-reservation-fm input,
+.home-reservation-fm .select-bl {
+    width: 516px;
+    padding-left: 40px;
+    border: 2px solid #000;
+}
+
+.home-reservation-fm input,
+.home-reservation-fm select {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    outline: none;
+    background-color: transparent;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    letter-spacing: .02em;
+    color: #000;
+}
+
+.home-categories {
+    margin-top: 128px;
+}
+
+.home-categories-title {
+    line-height: 1;
+    text-align: center;
+}
+
+.home-categories-box {
+    margin-top: 126px;
+    margin-left: 138px;
+    margin-right: 138px;
+}
+
+.home-categories-item {
+    width: 508px;
+    height: 710px;
+    padding-top: 48px;
+    padding-left: 40px;
+    padding-right: 48.93px;
+
+    .categories-item-name {
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        font-size: 48px;
+        color: #233000;
+    }
+
+    &:nth-child(1) {
+        background: url("/public/images/category1.png") no-repeat;
+    }
+
+    &:nth-child(2) {
+        background: url("/public/images/category2.png") no-repeat;
+    }
+
+    &:nth-child(3) {
+        background: url("/public/images/category3.png") no-repeat;
+    }
 }

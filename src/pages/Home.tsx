@@ -137,6 +137,26 @@ const Home = ({ setPageNum }: HomeProps) => {
           </div>
         </div>
       </section>
+      <section className='home-testimonials'>
+        <h4 className="home-testimonials-quote">
+          “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
+          Turpis egestas ultricies purus  Lorem ipsum dolor sit amet.
+        </h4>
+        <div className="d-f jc-sb">
+          <div className="home-testimonials-author d-f align-center">
+            <div><img src="/images/testimonials-author1.png" alt="testimonials-author1" /></div>
+            <div>
+              <h5 className="testimonials-author-name">Jane Doe</h5>
+              <div className="testimonials-author-pos">Bloger</div>
+            </div>
+          </div>
+          <div className="home-testimonials-pagination d-f align-center">
+            <button className='btn-clear d-b'><img src="/images/arrow-left.png" alt="arrow-left" /></button>
+            <h5 className='testimonials-pagination-num'>2 / 3</h5>
+            <button className='btn-clear d-b'><img src="/images/arrow-right.png" alt="arrow-right" /></button>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

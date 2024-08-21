@@ -238,3 +238,54 @@
         background: url("/public/images/category3.png") no-repeat;
     }
 }
+
+.home-testimonials {
+    margin-top: 138px;
+    margin-bottom: 145px;
+    margin-left: 246px;
+    margin-right: 229px;
+    padding-top: 118px;
+    background: url("/public/images/quote.png") no-repeat;
+    background-position-y: 118px;
+    background-position-x: right;
+}
+
+.home-testimonials-quote {
+    max-width: 1262px;
+    margin-bottom: 86px;
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #000;
+}
+
+.home-testimonials-author {
+    gap: 60px;
+
+    .testimonials-author-name {
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #000;
+    }
+
+    .testimonials-author-pos {
+        margin-top: 6px;
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        letter-spacing: .02em;
+        color: #4D4D4D;
+    }
+}
+
+.home-testimonials-pagination {
+    gap: 40px;
+
+    .testimonials-pagination-num {
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #000;
+    }
+}

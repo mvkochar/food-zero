@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [drop, setDrop] = React.useState(false)
@@ -21,8 +22,8 @@ const Header = () => {
           <span className='line'></span>
         </button>
         <ul className={drop ? "dropdown-menu" : "d-n"}>
-          <li><a href="">Home</a></li>
-          <li><a href="">Menu</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/menu">Menu</Link></li>
           <li><a href="">About</a></li>
           <li><a href="">Blog</a></li>
           <li><a href="">Contact</a></li>

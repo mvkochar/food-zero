@@ -1,22 +1,25 @@
 import React from 'react'
 import Header from '../Header/Header'
 import TopHome from './TopHome'
+import TopMenu from './TopMenu'
 
 type TopProps = {
   page: number
 }
 
 const Top = ({ page }: TopProps) => {
- const bgColor = page=== 1 ? "#233000" : "#fff"
- 
+  const bg = page === 1 ? "#233000" : page === 2 ? "url('/images/top-menu-bg.png') no-repeat" : "#fff"
+
   return (
-    <div className='top' style={{backgroundColor: bgColor}}>
+    <div className='top' style={{ background: bg }}>
       <Header />
       <>
         {
           page === 1 ?
             <TopHome />
-            : null
+            : page === 2 ?
+              <TopMenu />
+              : null
         }
       </>
     </div>

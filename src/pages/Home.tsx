@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './css/Home.css'
 import PostsList from '../components/PostsList/PostsList'
 import PostsItem from '../components/PostsItem/PostsItem'
+import Reservation from '../components/Reservation/Reservation'
 
 type HomeProps = {
   setPageNum: (pageNum: number) => void
@@ -93,26 +94,7 @@ const Home = ({ setPageNum }: HomeProps) => {
           })
         }
       </section>
-      <section className='home-reservation'>
-        <h2 className="home-reservation-title">Make a Reservation</h2>
-        <h4 className="home-reservation-subtitle">Get in touch with restaurant</h4>
-        <form action="" className='home-reservation-fm'>
-          <div className="fm-box d-f jc-sb">
-            <input type="text" name='reservationDate' placeholder='16/22/2021' />
-            <div className="select-bl">
-              <select name="reservationTime">
-                <option value="0">6:00 pm</option>
-              </select>
-            </div>
-            <div className="select-bl">
-              <select name="reservationPersov">
-                <option value="0">2 Person</option>
-              </select>
-            </div>
-          </div>
-          <button>Book Now</button>
-        </form>
-      </section>
+      <Reservation/>
       <section className='home-categories'>
         <h2 className="home-categories-title">Calories Energy <br /> Balance</h2>
         <h4 className="home-categories-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>

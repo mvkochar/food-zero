@@ -1,0 +1,73 @@
+.menu-content {
+    padding-top: 122px;
+    flex-direction: column;
+    gap: 140px;
+
+    .content-bl-title {
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        font-size: 108px;
+        line-height: 1;
+        text-align: center;
+        color: #000;
+    }
+
+    .content-bl-subtitle {
+        margin-top: 18px;
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        line-height: 1.4;
+        letter-spacing: .02em;
+        text-align: center;
+        color: #4D4D4D;
+    }
+
+    .content-bl-info {
+        margin-top: 81px;
+
+        .info-content {
+            width: 710px;
+            flex-direction: column;
+            gap: 58px;
+
+            .elem-price {
+                padding-bottom: 12px;
+                border-bottom: 4px dashed #000000;
+                font-family: "Rufina", serif;
+                font-weight: 700;
+                font-size: 48px;
+                text-align: right;
+                color: #000;
+            }
+
+            .elem-title {
+                margin-top: 24px;
+                font-family: "Rufina", serif;
+                font-weight: 700;
+                font-size: 68px;
+                line-height: 1.2;
+                color: #000;
+            }
+
+            .elem-desc {
+                margin-top: 24px;
+                font-family: "Lato", sans-serif;
+                font-size: 24px;
+                line-height: 1.4;
+                letter-spacing: .02em;
+                color: #4D4D4D;  
+            }
+        }
+    }
+}
+
+.menu-content-bl:nth-child(1) .content-bl-info,
+.menu-content-bl:nth-child(3) .content-bl-info {
+    margin-left: 138px;
+    margin-right: 178px;
+}
+
+.menu-content-bl:nth-child(2) .content-bl-info {
+    margin-left: 178px;
+    margin-right: 138px;
+}

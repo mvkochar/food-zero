@@ -34,21 +34,6 @@ body {
   align-items: center;
 }
 
-.page-title {
-  font-family: "Rufina", serif;
-  font-weight: 700;
-  font-size: 148px;
-  line-height: 1.2;
-  color: #fff;
-}
-
-.bl-title {
-  font-family: "Rufina", serif;
-  font-weight: 700;
-  font-size: 68px;
-  line-height: 1.2;
-}
-
 .d-n {
   display: none;
 }
@@ -69,4 +54,27 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.page-title {
+  font-family: "Rufina", serif;
+  font-weight: 700;
+  font-size: 148px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.page-subtitle {
+  margin-top: 50px;
+  font-family: "Rufina";
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+.bl-title {
+  font-family: "Rufina", serif;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 1.2;
 }

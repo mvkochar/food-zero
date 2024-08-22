@@ -1,0 +1,42 @@
+.top-contact {
+    margin-top: 207px;
+    padding-bottom: 118px;
+}
+
+.top-contact-hero {
+    margin-left: 138px;
+}
+
+.top-contact-schedule {
+    width: 696px;
+    margin-top: 93px;    
+    margin-left: 1086px;
+    color: #fff;
+}
+
+.top-contact-open {
+    padding-bottom: 38px;
+    border-bottom: 2px dashed #fff;
+
+    .contact-open-title {
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        font-size: 32px;
+        
+    }
+
+    .contact-open-desc {
+        font-family: "Lato", sans-serif;
+        font-size: 24px;
+        letter-spacing: .02em;
+    }
+}
+
+
+.top-contact-hours {
+    margin-top: 38px;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: .02em;
+}

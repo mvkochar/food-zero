@@ -26,7 +26,7 @@ const Header = () => {
           <li><Link to="/menu">Menu</Link></li>
           <li><a href="">About</a></li>
           <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
       <div className="d-f align-center">

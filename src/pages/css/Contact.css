@@ -1,0 +1,156 @@
+.contact-about {
+    margin-top: 152px;
+    margin-left: 138px;
+    margin-right: 281px;
+    padding-top: 120px;
+    background: url("/public/images/contact/orange.png") no-repeat;
+    background-position-x: center;
+}
+
+.contact-about-title,
+.contact-location-title {
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.contact-about-title {
+    padding-bottom: 79px;
+    align-self: last baseline;
+
+    span {
+        color: #9CAA00;
+    }
+}
+
+.contact-location {
+    margin-top: 145px;
+    margin-left: 182px;
+    margin-right: 138px;
+}
+
+.contact-location-link {
+    display: block;
+    width: 293px;
+    margin-top: 53px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #000;
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+}
+
+.contact-reservation {
+    margin-top: 185.5px;
+    padding-top: 214px;
+    padding-bottom: 184px;
+    padding-left: 138px;
+    padding-right: 138px;
+    background: #EBF0E4 url("/public/images/mint.png") no-repeat 159px 50px;
+}
+
+.contact-reservation-title {
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-size: 108px;
+    line-height: 1.2;
+    text-align: center;
+    color: #000;
+}
+
+.contact-reservation-subtitle {
+    margin-top: 18px;
+    margin-left: 335px;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: .02em;
+    color: #4D4D4D;
+}
+
+.contact-reservation-fm {
+    margin-top: 116px;
+
+    .input-box {
+        flex-direction: column;
+        gap: 46px;
+    }
+
+    input {
+        width: 1644px;
+        display: block;
+        padding-left: 40px;
+        border: 2px solid #000;
+
+        &::placeholder {
+            color: #000;
+        }
+    }
+
+    button {
+        display: block;
+        width: 327px;
+        margin: 82px auto;
+        margin-bottom: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #5E6600;
+        border: 2px solid #000;
+        cursor: pointer;
+        font-family: "Rufina", serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #fff;
+    }
+}
+
+.contact-reservation-fm input,
+.contact-reservation-fm select {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: transparent;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    color: #000;
+}
+
+.contact-reservation-fm .input-block {
+    gap: 46px;
+}
+
+
+.contact-reservation-fm .input-half {
+    width: 799px;
+}
+
+.contact-reservation-fm .select-bl {
+    width: 799px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid #000;
+}
+
+.contact-reservation-fm .select-bl-full {
+    width: 1644px;
+}
+
+.contact-reservation-fm select {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.contact-reservation-fm .input-block input {
+    width: 799px;
+}
+
+.contact-reservation-fm .input-block .select-bl {
+    width: 799px;
+}
+

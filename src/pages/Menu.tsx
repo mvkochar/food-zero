@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './css/Menu.css'
 import Reservation from '../components/Reservation/Reservation'
 
@@ -7,7 +7,7 @@ type MenuProps = {
 }
 
 const Menu = ({ setPageNum }: MenuProps) => {
-    useEffect(
+    React.useEffect(
         () => setPageNum(2), []
     )
 

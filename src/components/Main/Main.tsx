@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Contact, Home, Menu } from '../../pages'
+import { About, Contact, Home, Menu } from '../../pages'
 
 type MainProps = {
   setPageNum: (pageNum: number) => void
@@ -20,6 +20,10 @@ const Main = ({setPageNum}:MainProps) => {
         <Route
           path='contact'
           element={<Contact setPageNum={setPageNum}/>}
+        />
+        <Route
+          path='about'
+          element={<About setPageNum={setPageNum}/>}
         />
     </Routes>
   )

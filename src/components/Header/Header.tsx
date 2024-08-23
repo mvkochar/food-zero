@@ -24,7 +24,7 @@ const Header = () => {
         <ul className={drop ? "dropdown-menu" : "d-n"}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/menu">Menu</Link></li>
-          <li><a href="">About</a></li>
+          <li><Link to="/about">About</Link></li>
           <li><a href="">Blog</a></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>

@@ -1,0 +1,134 @@
+.about-story {
+    margin-top: 94px;
+    margin-left: 215px;
+    margin-right: 138px;
+    padding-top: 124px;
+    background: url("/public/images/tomato.png") no-repeat;
+    background-position-x: 37%;
+}
+
+.about-story-title,
+.about-video-title,
+.about-process-title {
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-size: 108px;
+    line-height: 1.2;
+}
+
+.about-story-title {
+    margin-top: 203px;
+    color: #000;
+}
+
+.about-story-desc {
+    max-width: 666px;
+    margin-top: 18px;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: .02em;
+    color: #4D4D4D;
+}
+
+.about-staff {
+    margin-top: 117px;
+    padding-top: 162px;
+
+    .staff-bl-one {
+        margin-left: 171px;
+        margin-right: 402px;
+
+        .about-staff-desc {
+            margin-top: 134px;
+        }
+    }
+
+    .staff-bl-two {
+        margin-top: -345px;
+        margin-left: 387px;
+        margin-right: 176px;
+
+        .about-staff-desc {
+            align-self: flex-end;
+            text-align: right;
+        }
+    }
+}
+
+.about-staff-pos {
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-size: 68px;
+    text-align: center;
+    color: #000;
+}
+
+.about-staff-name,
+.about-staff-desc,
+.about-video-subtitle,
+.about-process-content .process-bl-desc {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: .02em;
+}
+
+.about-staff-name {
+    margin-bottom: 24px;
+    text-align: center;
+    color: #000;
+}
+
+.about-staff-desc {
+    width: 510px;
+    color: #4D4D4D;
+}
+
+.about-video {
+    margin-top: 299px;
+    padding-top: 215px;
+    padding-bottom: 188px;
+    background: url("/public/images/about-video-bg.png") no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.about-video-subtitle {
+    margin-top: 18px;
+    margin-bottom: 82px;
+}
+
+.about-process {
+    margin-bottom: -159px;
+    padding-top: 267px;
+    padding-bottom: 272px;
+    background: url("/public/images/rosemary.png") no-repeat;
+}
+
+.about-process-content {
+    margin-top: 174px;
+
+    .process-bl-one {
+        padding-left: 138px;
+        padding-right: 272px;
+    }
+
+    .process-bl-two {
+        margin-top: 118px;
+        padding-left: 209px;
+        padding-right: 138px;
+    }
+}
+
+.about-process-content .process-bl-title {
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-size: 88px;
+    letter-spacing: 1.2;
+    color: #000;
+}
+
+.about-process-content .process-bl-desc {
+    margin-top: 28px;
+}

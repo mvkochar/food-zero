@@ -21,10 +21,11 @@ const Header = () => {
           <span className='line'></span>
           <span className='line'></span>
         </button>
-        <ul className={drop ? "dropdown-menu" : "d-n"}>
+        <ul className={drop ? "dropdown-menu" : "op-0"}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/menu">Menu</Link></li>
           <li><Link to="/about">About</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
           <li><a href="">Blog</a></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>

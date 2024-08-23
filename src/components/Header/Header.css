@@ -43,6 +43,7 @@
 }
 
 .dropdown-menu {
+    opacity: 1;
     list-style-type: none;
     padding: 10px 25px;
     background: url("/public/images/dropdown-bg.png") no-repeat;

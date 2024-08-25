@@ -21,13 +21,13 @@ const Header = () => {
           <span className='line'></span>
           <span className='line'></span>
         </button>
-        <ul className={drop ? "dropdown-menu" : "op-0"}>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/menu">Menu</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/portfolio">Portfolio</Link></li>
-          <li><Link to="/blog">Blog</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+        <ul className={drop ? "dropdown-menu" : "op-0"} >
+          <li onClick={()=>setDrop(false)}><Link to="/">Home</Link></li>
+          <li onClick={()=>setDrop(false)}><Link to="/menu">Menu</Link></li>
+          <li onClick={()=>setDrop(false)}><Link to="/about">About</Link></li>
+          <li onClick={()=>setDrop(false)}><Link to="/portfolio">Portfolio</Link></li>
+          <li onClick={()=>setDrop(false)}><Link to="/blog">Blog</Link></li>
+          <li onClick={()=>setDrop(false)}><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
       <div className="d-f align-center">

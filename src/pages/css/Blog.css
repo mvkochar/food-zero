@@ -1,0 +1,37 @@
+.blog-main {
+    margin-top: 128px;
+    margin-bottom: 82px;
+    margin-left: 138px;
+    margin-right: 138px;
+    flex-wrap: wrap;
+    row-gap: 120px;
+}
+
+.blog-pagination {
+    width: fit-content;
+    margin: 62px auto;
+    margin-bottom: 128px;
+    gap: 40px;
+}
+
+.blog-pagination-action,
+.blog-pagination-num {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: 2px solid #000;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    letter-spacing: .02em;
+    color: #000;
+}
+
+.blog-pagination-action {
+    width: 89px;
+}
+
+.blog-pagination-num {
+    width: 54px;
+}

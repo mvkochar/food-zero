@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About, Contact, Home, Menu, Portfolio } from '../../pages'
+import { About, Blog, Contact, Home, Menu, Portfolio } from '../../pages'
 
 type MainProps = {
   setPageNum: (pageNum: number) => void
@@ -28,6 +28,10 @@ const Main = ({ setPageNum }: MainProps) => {
       <Route
         path='portfolio'
         element={<Portfolio setPageNum={setPageNum} />}
+      />
+      <Route
+        path='blog'
+        element={<Blog setPageNum={setPageNum} />}
       />
     </Routes>
   )
